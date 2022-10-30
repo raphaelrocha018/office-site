@@ -62,4 +62,12 @@ nav > .btn2 {
     nav {
         margin-left: 2.5rem;
     }
+
+    nav > menu {
+        gap: 1.5em;
+    }
+
+    menu a {
+        font-size: 1rem;
+    }
 }
