@@ -1,0 +1,49 @@
+/* FONTES */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+body {
+    background: url(/img/home/background.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+header {
+    max-width: 80em;
+    margin: 3em auto;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > menu {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+
+button {
+    height: max-content;
+    align-self: center;
+}
+
+header img {
+    height: 5.5em;
+}
+
+article h1 {
+    font-family: "Ogg";
+    font-size: 4em;
+}
