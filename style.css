@@ -39,7 +39,7 @@
 }
 
 body {
-    background: url(/img/home/background.png);
+    background: url(img/home/background.png);
     background-size: 100%;
     background-repeat: repeat-y;
 }
