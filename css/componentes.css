@@ -38,7 +38,7 @@
     background-color: var(--p3);
     border: 1px solid transparent;
 
-    padding: 0.75rem 2rem;
+    padding: 0.5rem 2rem;
     border-radius: 2rem;
     align-self: start;
 }
@@ -57,12 +57,43 @@
     color: var(--p3);
     border: 1px solid var(--p3);
 
-    padding: 0.75rem 2rem;
+    padding: 0.5rem 2rem;
     border-radius: 2rem;
 }
 
 .btn2:hover {
     background-color: var(--p1);
+    transition: 0.3s;
+}
+
+.btn3 {
+    font-family: var(--font-3);
+    font-size: 1.125rem;
+
+    color: var(--p3);
+    background-color: var(--p1);
+    border: 1px solid transparent;
+
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+}
+
+.btn3:hover {
+    border: 1px solid var(--p3);
+    transition: 0.3s;
+}
+
+.btn3::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 12px;
+    background: url(../img/icones/btn-seta.png);
+    margin-left: 12px;
+}
+
+.btn3:hover::after {
+    transform: translateX(8px);
     transition: 0.3s;
 }
 
@@ -72,6 +103,10 @@
     }
 
     .btn2 {
+        font-size: 0.9rem;
+    }
+
+    .btn3 {
         font-size: 0.9rem;
     }
 }

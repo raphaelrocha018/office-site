@@ -4,8 +4,14 @@
 
 @font-face {
     font-family: Ogg;
-    src: url(../fonts/ogg/OggMedium.ttf) format(truetype);
+    src: url(../fonts/ogg/OggRegular.ttf) format(truetype);
     font-weight: normal;
+}
+
+@font-face {
+    font-family: Ogg;
+    src: url(../fonts/ogg/OggMedium.ttf) format(truetype);
+    font-weight: bold;
 }
 
 /* GLOBAL */

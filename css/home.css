@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 3fr 9fr;
     gap: 4em;
+    padding-bottom: 6rem;
 }
 
 .intro > picture {
@@ -25,7 +26,7 @@
 .intro-texto h1 {
     font-family: var(--font-1);
     font-size: 4em;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1.125;
 
     color: var(--p1);
@@ -37,19 +38,65 @@
     font-family: var(--font-3);
     font-size: 1.25rem;
 
-    color: var(--c70);
-    margin-bottom: 1.25rem;
+    color: var(--c60);
+    margin-bottom: 1.5rem;
     max-width: 41ch;
 }
+
+/* EXPERIÊNCIA */
+
+.exp {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: max-content;
+}
+
+.exp-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.exp-texto h2 {
+    font-family: var(--font-1);
+    font-size: 4em;
+    font-weight: 200;
+    line-height: 1.125;
+
+    color: var(--p3);
+    margin-bottom: 0.75rem;
+}
+
+.exp-texto p {
+    font-family: var(--font-3);
+    font-size: 1.25rem;
+
+    color: var(--c60);
+    margin-bottom: 2rem;
+    max-width: 497px;
+}
+
+/* FEEDBACK */
+
+/* RESPONSIVO */
 
 @media (max-width: 1280px) {
     .intro {
         grid-template-columns: 3.5fr 8.5fr;
     }
     .intro-texto h1 {
-        font-size: 3.5em;
+        font-size: 3.5rem;
     }
     .intro-texto p {
+        font-size: 1.125rem;
+    }
+    .exp-texto h2 {
+        font-size: 3rem;
+    }
+    .exp-texto p {
         font-size: 1.125rem;
     }
 }
@@ -60,11 +107,19 @@
         gap: 2rem;
         margin-left: 2rem;
     }
-
     .intro-texto h1 {
         font-size: 3rem;
     }
     .intro-texto p {
+        font-size: 1rem;
+    }
+    .exp {
+        margin-left: 2rem;
+    }
+    .exp-texto h2 {
+        font-size: 3rem;
+    }
+    .exp-texto p {
         font-size: 1rem;
     }
 }
