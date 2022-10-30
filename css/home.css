@@ -25,7 +25,7 @@
 .intro-texto h1 {
     font-family: "Ogg";
     font-size: 4em;
-    font-weight: 500;
+    font-weight: normal;
     line-height: 1.125;
 
     color: var(--p1);
