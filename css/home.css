@@ -1,0 +1,57 @@
+/* INTRO */
+
+.intro {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    gap: 5em;
+}
+
+.intro > picture {
+    grid-column: 1/1;
+    justify-self: end;
+}
+
+.intro > picture > img {
+    width: 100%;
+}
+
+.intro-texto {
+    grid-area: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.intro-texto h1 {
+    font-family: "Ogg";
+    font-size: 4em;
+    font-weight: 500;
+    line-height: 1.125;
+
+    color: var(--p1);
+    margin-bottom: 1.25rem;
+    max-width: 16ch;
+}
+
+.intro-texto p {
+    font-family: var(--font-3);
+    font-size: 1.25rem;
+
+    color: var(--c70);
+    margin-bottom: 1.25rem;
+    max-width: 41ch;
+}
+
+@media (max-width: 1280px) {
+    .header {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .intro-texto h1 {
+        font-size: 3.5em;
+    }
+    .intro-texto p {
+        font-size: 1.125rem;
+    }
+}

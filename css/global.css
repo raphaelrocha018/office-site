@@ -1,0 +1,36 @@
+/* FONTES */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    background: none;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* CONTAINER */
+
+body {
+    background: url(img/home/background.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 80em;
+    padding: 0rem 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}

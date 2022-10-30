@@ -1,0 +1,39 @@
+/* CABEÇALHO */
+
+.header {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > menu {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+
+menu a {
+    font-family: var(--font-3);
+    font-size: 1.1rem;
+    color: var(--c50);
+}
+
+menu a:hover {
+    color: var(--p4);
+    transition: 0.3s;
+}
+
+nav > .btn2 {
+    height: max-content;
+    align-self: center;
+}
+
+header img {
+    height: 5.5em;
+}
