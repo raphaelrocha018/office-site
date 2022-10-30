@@ -1,4 +1,4 @@
-/* VARIÁVEIS */
+/* CORES */
 
 :root {
     --p1: #fff9f1;
@@ -18,7 +18,11 @@
     --c90: #323232;
     --c95: #191919;
     --c100: #000000;
+}
 
+/* FONTES */
+
+:root {
     --font-1: "Ogg", serif;
     --font-2: "RecoletaAlt", serif;
     --font-3: "Lato", sans-serif;
@@ -60,4 +64,10 @@
 .btn2:hover {
     background-color: var(--p1);
     transition: 0.3s;
+}
+
+@media (max-width: 960px) {
+    .btn1 {
+        font-size: 1rem;
+    }
 }

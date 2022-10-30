@@ -4,12 +4,17 @@
     margin-top: 3em;
     margin-bottom: 3em;
     display: grid;
-    grid-template-columns: 4fr 8fr;
+    grid-template-columns: 3fr 9fr;
+}
+
+.header img {
+    max-height: 5.5em;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    margin-left: 4rem;
 }
 
 nav > menu {
@@ -34,6 +39,27 @@ nav > .btn2 {
     align-self: center;
 }
 
-header img {
-    height: 5.5em;
+@media (max-width: 1280px) {
+    .header {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    nav {
+        margin-left: 3rem;
+    }
+
+    nav > menu {
+        gap: 2em;
+    }
+}
+
+@media (max-width: 960px) {
+    .header {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        margin-left: 2.5rem;
+    }
 }
