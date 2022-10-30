@@ -43,6 +43,9 @@
 }
 
 @media (max-width: 1280px) {
+    .intro {
+        grid-template-columns: 3.5fr 8.5fr;
+    }
     .intro-texto h1 {
         font-size: 3.5em;
     }
@@ -64,7 +67,4 @@
     .intro-texto p {
         font-size: 1rem;
     }
-}
-
-@media (max-width: 720px) {
 }
