@@ -76,6 +76,9 @@
 
     padding: 0.5rem 2rem;
     border-radius: 2rem;
+
+    display: flex;
+    align-items: center;
 }
 
 .btn3:hover {
@@ -93,7 +96,7 @@
 }
 
 .btn3:hover::after {
-    transform: translateX(8px);
+    transform: translateX(12px);
     transition: 0.3s;
 }
 
