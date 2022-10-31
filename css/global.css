@@ -34,15 +34,13 @@ img {
 /* CONTAINER */
 
 body {
-    background: url(../img/home/background.png);
+    background: #d8c3ae url(../img/home/background.png) repeat-y;
     background-size: 100%;
-    background-repeat: repeat-y;
 }
 
 .container {
     box-sizing: border-box;
     max-width: 80em;
-    padding: 0rem 2rem;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0 2rem;
+    margin: 0 auto;
 }

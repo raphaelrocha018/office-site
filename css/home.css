@@ -8,12 +8,12 @@
 }
 
 .intro > picture {
-    grid-column: 1/1;
     justify-self: end;
 }
 
 .intro > picture > img {
-    height: 100%;
+    max-width: 100%;
+    max-height: 70vh;
 }
 
 .intro-texto {
