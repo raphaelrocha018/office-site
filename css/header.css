@@ -7,10 +7,6 @@
     grid-template-columns: 3.5fr 8.5fr;
 }
 
-.header img {
-    max-height: 5.5em;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
