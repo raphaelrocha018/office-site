@@ -93,6 +93,9 @@
     .intro-texto p {
         font-size: 1.125rem;
     }
+    .exp {
+        margin-left: 2rem;
+    }
     .exp-texto h2 {
         font-size: 3rem;
     }
@@ -113,9 +116,7 @@
     .intro-texto p {
         font-size: 1rem;
     }
-    .exp {
-        margin-left: 2rem;
-    }
+
     .exp-texto h2 {
         font-size: 3rem;
     }
