@@ -3,7 +3,7 @@
 .intro {
     display: grid;
     grid-template-columns: 3fr 9fr;
-    gap: 4em;
+    gap: 4rem;
     padding-bottom: 6rem;
 }
 
@@ -25,7 +25,7 @@
 
 .intro-texto h1 {
     font-family: var(--font-1);
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: bold;
     line-height: 1.125;
 
@@ -37,17 +37,43 @@
 .intro-texto p {
     font-family: var(--font-3);
     font-size: 1.25rem;
+    font-weight: 400;
 
     color: var(--c60);
     margin-bottom: 1.5rem;
     max-width: 41ch;
 }
 
+/* RESPONSIVO INTRO */
+
+@media (max-width: 1440px) {
+    .intro-texto h1 {
+        font-size: 3.5rem;
+    }
+    .intro-texto p {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .intro {
+        grid-template-columns: 4fr 8fr;
+        gap: 2rem;
+        margin-left: 2rem;
+    }
+    .intro-texto h1 {
+        font-size: 3rem;
+    }
+    .intro-texto p {
+        font-size: 1rem;
+    }
+}
+
 /* EXPERIÊNCIA */
 
 .exp {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: max-content;
@@ -79,20 +105,9 @@
     max-width: 497px;
 }
 
-/* FEEDBACK */
-
-/* RESPONSIVO */
+/* RESPONSIVO EXPERIÊNCIA */
 
 @media (max-width: 1280px) {
-    .intro {
-        grid-template-columns: 3.5fr 8.5fr;
-    }
-    .intro-texto h1 {
-        font-size: 3.5rem;
-    }
-    .intro-texto p {
-        font-size: 1.125rem;
-    }
     .exp {
         margin-left: 2rem;
     }
@@ -105,22 +120,172 @@
 }
 
 @media (max-width: 960px) {
-    .intro {
-        grid-template-columns: 4fr 8fr;
-        gap: 2rem;
-        margin-left: 2rem;
-    }
-    .intro-texto h1 {
-        font-size: 3rem;
-    }
-    .intro-texto p {
-        font-size: 1rem;
-    }
-
     .exp-texto h2 {
         font-size: 3rem;
     }
     .exp-texto p {
         font-size: 1rem;
     }
+}
+
+/* FEEDBACK */
+
+.feedback {
+    margin-bottom: 11rem;
+}
+
+.feedback-titulo h2 {
+    font-family: var(--font-1);
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--p3);
+}
+
+.feedback-titulo p {
+    font-family: var(--font-3);
+    font-size: 1.125rem;
+    color: var(--c60);
+    margin-bottom: 4rem;
+}
+
+.feedback-slide {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+}
+
+.feedback-box {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.feedback-box picture {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var(--p4);
+
+    position: absolute;
+    top: -1rem;
+}
+
+.feedback-box h3 {
+    font-family: var(--font-3);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+    color: var(--p4);
+    margin-bottom: 1.5rem;
+}
+
+.feedback-box p {
+    font-family: var(--font-3);
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--c60);
+    margin-bottom: 1.5rem;
+}
+
+.feedback-box a {
+    font-family: var(--font-3);
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--c60);
+    align-self: flex-end;
+}
+
+.feedback-box a::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 12px;
+    background: url(../img/icones/btn-seta.svg);
+    margin-left: 12px;
+    justify-self: end;
+}
+
+.feedback-box a:hover {
+    color: var(--p4);
+}
+
+.feedback-box a:hover::after {
+    transform: translateX(8px);
+    transition: 0.3s;
+}
+
+/* MODELOS */
+
+.modelos {
+    padding: 9rem 0 11rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.modelos h2 {
+    font-family: var(--font-1);
+    font-size: 3.4rem;
+    line-height: 1;
+    color: var(--p2);
+
+    margin-bottom: 1.25rem;
+}
+
+.modelos p {
+    grid-row: 2;
+    margin-bottom: 2rem;
+
+    font-family: var(--font-3);
+    font-size: 1.125rem;
+    font-weight: 500;
+    max-width: 45ch;
+    color: var(--c60);
+}
+
+.modelos a {
+    grid-row: 3;
+}
+
+.modelos-slide {
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+.modelos-slide h3 {
+    font-family: var(--font-3);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--p3);
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    overflow-x: hidden;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.card-group:last-child {
+    padding-right: 1.5rem;
+}
+
+.card-group li {
+    min-width: 11rem;
+    height: 16rem;
+    background-color: var(--c00);
+    border-radius: 1rem;
+}
+
+.card-group li:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
 }

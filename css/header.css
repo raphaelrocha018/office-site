@@ -35,7 +35,7 @@ nav > .btn2 {
     align-self: center;
 }
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1440px) {
     .header {
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -55,7 +55,7 @@ nav > .btn2 {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
     .header {
         grid-template-columns: 1fr;
         gap: 1.25rem;
@@ -69,4 +69,4 @@ nav > .btn2 {
     nav > menu {
         gap: 2rem;
     }
-}
+} */

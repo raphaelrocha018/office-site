@@ -18,11 +18,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    appearance: none;
     border: none;
     background: none;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
     color: inherit;
 }
 
@@ -39,7 +40,6 @@ body {
 }
 
 .container {
-    box-sizing: border-box;
     max-width: 80em;
     padding: 0 2rem;
     margin: 0 auto;

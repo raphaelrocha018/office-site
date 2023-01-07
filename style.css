@@ -8,3 +8,13 @@
 
 /* HOME */
 @import "./css/home.css";
+
+/* SOBRE */
+@import "./css/sobre.css";
+
+/* CONVITES */
+@import "./css/convites.css";
+@import "./css/convite.css";
+
+/* CONVITES */
+@import "./css/contatos.css";
