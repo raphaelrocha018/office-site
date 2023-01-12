@@ -1,8 +1,8 @@
 /* CABEÇALHO */
 
 .header {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     display: grid;
     grid-template-columns: 3.5fr 8.5fr;
 }
@@ -13,10 +13,24 @@ nav {
     margin-left: 4rem;
 }
 
-nav > menu {
+.menu-paginas {
     display: flex;
-    gap: 3em;
+    flex-direction: row;
+    gap: 3rem;
     align-items: center;
+}
+
+.menu-social {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.menu-social li:last-child {
+    background-color: var(--p1);
+    padding: 0.75rem;
+    border-radius: 50%;
 }
 
 menu a {
@@ -26,7 +40,7 @@ menu a {
 }
 
 menu a:hover {
-    color: var(--p4);
+    color: var(--p5);
     transition: 0.3s;
 }
 

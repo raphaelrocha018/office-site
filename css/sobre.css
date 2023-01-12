@@ -1,0 +1,141 @@
+.sobre-titulo {
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr 2fr;
+    gap: 1.25rem;
+    margin-top: 6rem;
+}
+
+.sobre-titulo h1 {
+    grid-column: 1;
+    font-family: var(--font-1);
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+    text-align: right;
+    color: var(--p5);
+    max-width: 5ch;
+    place-self: end;
+}
+
+.sobre-titulo p {
+    grid-column: 2;
+    font-family: var(--font-2);
+    line-height: 1.25;
+    font-size: 1.25rem;
+    color: var(--c70);
+}
+
+.sobre-texto {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    margin-top: 6rem;
+}
+
+.sobre-empresa {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 1.25rem;
+}
+
+.sobre-empresa h2 {
+    font-family: var(--font-1);
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: right;
+    color: var(--p5);
+    justify-self: right;
+}
+
+.sobre-empresa p {
+    font-family: var(--font-3);
+    font-size: 1rem;
+    color: var(--c70);
+    max-width: 34.5ch;
+}
+
+.sobre-gabi {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    margin-top: 2rem;
+}
+
+.sobre-gabi h2 {
+    grid-column: 1;
+    font-family: var(--font-1);
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+    color: var(--p5);
+    max-width: 5ch;
+}
+
+.sobre-gabi p {
+    font-family: var(--font-3);
+    font-size: 1rem;
+    color: var(--c70);
+}
+
+.sobre-timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.sobre-timeline picture {
+    position: absolute;
+    top: -5rem;
+    left: calc(50% - 2rem);
+}
+
+.sobre-timeline img {
+    max-width: 80%;
+}
+
+.sobre-timeline div span {
+    font-family: var(--font-2);
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--p7);
+}
+
+.sobre-timeline div h3 {
+    font-family: var(--font-2);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--s1);
+}
+
+.sobre-timeline div p {
+    font-family: var(--font-3);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--c60);
+    max-width: 40ch;
+}
+
+.sobre-timeline div:nth-child(2) {
+    margin-top: 0.5rem;
+    justify-self: right;
+    text-align: right;
+}
+
+.sobre-timeline div:nth-child(3) {
+    grid-row: 3;
+    grid-column: 2;
+    margin-top: 2rem;
+}
+
+.sobre-timeline div:nth-child(4) {
+    grid-row: 5;
+    grid-column: 1;
+    margin-top: 1.5rem;
+    justify-self: right;
+    text-align: right;
+}
+
+.sobre-fotos img {
+    margin: 0 auto 3rem auto;
+}

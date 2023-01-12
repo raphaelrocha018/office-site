@@ -1,0 +1,50 @@
+.footer {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.footer-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 0;
+}
+
+.footer-conteudo > div {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-conteudo h3 {
+    font-family: var(--font-3);
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--p5);
+    margin-bottom: 1rem;
+}
+
+.footer-conteudo a,
+.footer-conteudo p {
+    font-family: var(--font-3);
+    font-size: 1rem;
+    color: var(--s1);
+}
+
+.footer-conteudo a:hover {
+    color: var(--p5);
+}
+
+.footer-conteudo address {
+    font-style: normal;
+    justify-self: end;
+}
+
+.footer-conteudo p span {
+    margin-left: 1rem;
+}

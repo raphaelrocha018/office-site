@@ -1,0 +1,834 @@
+.convites-titulo {
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.convites-titulo h1 {
+    grid-column: 1;
+    font-family: var(--font-1);
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+    text-align: right;
+    color: var(--p5);
+    max-width: 5ch;
+    place-self: end;
+}
+
+.convites-titulo p {
+    grid-column: 2;
+    font-family: var(--font-2);
+    line-height: 1.25;
+    font-size: 1.125rem;
+    color: var(--c60);
+}
+
+.convites-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 4rem;
+    margin-left: 20rem;
+    margin-bottom: 6rem;
+}
+
+.convites-lista div {
+    height: 19rem;
+    width: 17rem;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0.5rem;
+}
+
+.convites-lista h2 {
+    font-family: var(--font-2);
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: var(--p4);
+    margin-left: 1rem;
+}
+
+.convites-lista ul > li {
+    font-family: var(--font-3);
+    font-size: 1rem;
+    color: var(--c70);
+    margin-left: 1rem;
+}
+
+.convites-lista div:hover {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* DAMIÃO */
+
+.convites-damiao {
+    background-image: url(/img/convites/damiao/damiao1.webp);
+}
+
+.convites-damiao:hover {
+    background-image: url(/img/convites/damiao/damiao2.webp);
+    transition: ease 0.8s;
+}
+
+/* LUXURY */
+
+.convites-luxury {
+    background-image: url(/img/convites/luxury/luxury1.webp);
+}
+
+.convites-luxury:hover {
+    background-image: url(/img/convites/luxury/luxury2.webp);
+    transition: ease 0.8s;
+}
+
+/* PRATA */
+
+.convites-prata {
+    background-image: url(/img/convites/prata/prata1.webp);
+}
+
+.convites-prata:hover {
+    background-image: url(/img/convites/prata/prata2.webp);
+    transition: ease 0.8s;
+}
+
+/* SIDE */
+
+.convites-side {
+    background-image: url(/img/convites/side/side1.webp);
+}
+
+.convites-side:hover {
+    background-image: url(/img/convites/side/side2.webp);
+    transition: ease 0.8s;
+}
+
+/* CAROLA */
+
+.convites-carola {
+    background-image: url(/img/convites/carola/carola1.webp);
+}
+
+.convites-carola:hover {
+    background-image: url(/img/convites/carola/carola2.webp);
+    transition: ease 0.8s;
+}
+
+/* LAVANDA */
+
+.convites-lavanda {
+    background-image: url(/img/convites/lavanda/lavanda1.webp);
+}
+
+.convites-lavanda:hover {
+    background-image: url(/img/convites/lavanda/lavanda2.webp);
+    transition: ease 0.8s;
+}
+
+/* BEACH */
+
+.convites-beach {
+    background-image: url(/img/convites/beach/beach1.webp);
+}
+
+.convites-beach:hover {
+    background-image: url(/img/convites/beach/beach2.webp);
+    transition: ease 0.8s;
+}
+
+/* BINI */
+
+.convites-bini {
+    background-image: url(/img/convites/bini/bini1.webp);
+}
+
+.convites-bini:hover {
+    background-image: url(/img/convites/bini/bini2.webp);
+    transition: ease 0.8s;
+}
+
+/* ROSY */
+
+.convites-rosy {
+    background-image: url(/img/convites/rosy/rosy1.webp);
+}
+
+.convites-rosy:hover {
+    background-image: url(/img/convites/rosy/rosy2.webp);
+    transition: ease 0.8s;
+}
+
+/* ONOFRE */
+
+.convites-onofre {
+    background-image: url(/img/convites/onofre/onofre1.webp);
+}
+
+.convites-onofre:hover {
+    background-image: url(/img/convites/onofre/onofre2.webp);
+    transition: ease 0.8s;
+}
+
+/* PITTERI */
+
+.convites-pitteri {
+    background-image: url(/img/convites/pitteri/pitteri1.webp);
+}
+
+.convites-pitteri:hover {
+    background-image: url(/img/convites/pitteri/pitteri2.webp);
+    transition: ease 0.8s;
+}
+
+/* CHEQUER */
+
+.convites-chequer {
+    background-image: url(/img/convites/chequer/chequer1.webp);
+}
+
+.convites-chequer:hover {
+    background-image: url(/img/convites/chequer/chequer2.webp);
+    transition: ease 0.8s;
+}
+
+/* DRAFT */
+
+.convites-draft {
+    background-image: url(/img/convites/draft/draft1.webp);
+}
+
+.convites-draft:hover {
+    background-image: url(/img/convites/draft/draft2.webp);
+    transition: ease 0.8s;
+}
+
+/* AFRICA */
+
+.convites-africa {
+    background-image: url(/img/convites/africa/africa1.webp);
+}
+
+.convites-africa:hover {
+    background-image: url(/img/convites/africa/africa2.webp);
+    transition: ease 0.8s;
+}
+
+/* PARTY */
+
+.convites-party {
+    background-image: url(/img/convites/party/party1.webp);
+}
+
+.convites-party:hover {
+    background-image: url(/img/convites/party/party2.webp);
+    transition: ease 0.8s;
+}
+
+/* TEEN */
+
+.convites-teen {
+    background-image: url(/img/convites/teen/teen1.webp);
+}
+
+.convites-teen:hover {
+    background-image: url(/img/convites/teen/teen2.webp);
+    transition: ease 0.8s;
+}
+
+/* COLLECT */
+
+.convites-collect {
+    background-image: url(/img/convites/collect/collect1.webp);
+}
+
+.convites-collect:hover {
+    background-image: url(/img/convites/collect/collect2.webp);
+    transition: ease 0.8s;
+}
+
+/* AGE */
+
+.convites-age {
+    background-image: url(/img/convites/age/age1.webp);
+}
+
+.convites-age:hover {
+    background-image: url(/img/convites/age/age2.webp);
+    transition: ease 0.8s;
+}
+
+/* TIP */
+
+.convites-tip {
+    background-image: url(/img/convites/tip/tip1.webp);
+}
+
+.convites-tip:hover {
+    background-image: url(/img/convites/tip/tip2.webp);
+    transition: ease 0.8s;
+}
+
+/* GARDEN */
+
+.convites-garden {
+    background-image: url(/img/convites/garden/garden1.webp);
+}
+
+.convites-garden:hover {
+    background-image: url(/img/convites/garden/garden2.webp);
+    transition: ease 0.8s;
+}
+
+/* RENDA */
+
+.convites-renda {
+    background-image: url(/img/convites/renda/renda1.webp);
+}
+
+.convites-renda:hover {
+    background-image: url(/img/convites/renda/renda2.webp);
+    transition: ease 0.8s;
+}
+
+/* BROWN */
+
+.convites-brown {
+    background-image: url(/img/convites/brown/brown1.webp);
+}
+
+.convites-brown:hover {
+    background-image: url(/img/convites/brown/brown2.webp);
+    transition: ease 0.8s;
+}
+
+/* MUNDI */
+
+.convites-mundi {
+    background-image: url(/img/convites/mundi/mundi1.webp);
+}
+
+.convites-mundi:hover {
+    background-image: url(/img/convites/mundi/mundi2.webp);
+    transition: ease 0.8s;
+}
+
+/* VERVLOET */
+
+.convites-vervloet {
+    background-image: url(/img/convites/vervloet/vervloet1.webp);
+}
+
+.convites-vervloet:hover {
+    background-image: url(/img/convites/vervloet/vervloet2.webp);
+    transition: ease 0.8s;
+}
+
+/* ZANTE */
+
+.convites-zante {
+    background-image: url(/img/convites/zante/zante1.webp);
+}
+
+.convites-zante:hover {
+    background-image: url(/img/convites/zante/zante2.webp);
+    transition: ease 0.8s;
+}
+
+/* BUD */
+
+.convites-bud {
+    background-image: url(/img/convites/bud/bud1.webp);
+}
+
+.convites-bud:hover {
+    background-image: url(/img/convites/bud/bud2.webp);
+    transition: ease 0.8s;
+}
+
+/* BAMBU */
+
+.convites-bambu {
+    background-image: url(/img/convites/bambu/bambu1.webp);
+}
+
+.convites-bambu:hover {
+    background-image: url(/img/convites/bambu/bambu2.webp);
+    transition: ease 0.8s;
+}
+
+/* CRUZ */
+
+.convites-cruz {
+    background-image: url(/img/convites/cruz/cruz1.webp);
+}
+
+.convites-cruz:hover {
+    background-image: url(/img/convites/cruz/cruz2.webp);
+    transition: ease 0.8s;
+}
+
+/* FARM */
+
+.convites-farm {
+    background-image: url(/img/convites/farm/farm1.webp);
+}
+
+.convites-farm:hover {
+    background-image: url(/img/convites/farm/farm2.webp);
+    transition: ease 0.8s;
+}
+
+/* BENÍCIO */
+
+.convites-benicio {
+    background-image: url(/img/convites/benicio/benicio1.webp);
+}
+
+.convites-benicio:hover {
+    background-image: url(/img/convites/benicio/benicio2.webp);
+    transition: ease 0.8s;
+}
+
+/* FRANCIS */
+
+.convites-francis {
+    background-image: url(/img/convites/francis/francis1.webp);
+}
+
+.convites-francis:hover {
+    background-image: url(/img/convites/francis/francis2.webp);
+    transition: ease 0.8s;
+}
+
+/* AL MARE */
+
+.convites-almare {
+    background-image: url(/img/convites/almare/almare1.webp);
+}
+
+.convites-almare:hover {
+    background-image: url(/img/convites/almare/almare2.webp);
+    transition: ease 0.8s;
+}
+
+/* B&W */
+
+.convites-bew {
+    background-image: url(/img/convites/bew/bew1.webp);
+}
+
+.convites-bew:hover {
+    background-image: url(/img/convites/bew/bew2.webp);
+    transition: ease 0.8s;
+}
+
+/* ARBOR */
+
+.convites-arbor {
+    background-image: url(/img/convites/arbor/arbor1.webp);
+}
+
+.convites-arbor:hover {
+    background-image: url(/img/convites/arbor/arbor2.webp);
+    transition: ease 0.8s;
+}
+
+/* GOLDEN */
+
+.convites-golden {
+    background-image: url(/img/convites/golden/golden1.webp);
+}
+
+.convites-golden:hover {
+    background-image: url(/img/convites/golden/golden2.webp);
+    transition: ease 0.8s;
+}
+
+/* REAL */
+
+.convites-real {
+    background-image: url(/img/convites/real/real1.webp);
+}
+
+.convites-real:hover {
+    background-image: url(/img/convites/real/real2.webp);
+    transition: ease 0.8s;
+}
+
+/* VELEIRO */
+
+.convites-veleiro {
+    background-image: url(/img/convites/veleiro/veleiro1.webp);
+}
+
+.convites-veleiro:hover {
+    background-image: url(/img/convites/veleiro/veleiro2.webp);
+    transition: ease 0.8s;
+}
+
+/* WOOD */
+
+.convites-wood {
+    background-image: url(/img/convites/wood/wood1.webp);
+}
+
+.convites-wood:hover {
+    background-image: url(/img/convites/wood/wood2.webp);
+    transition: ease 0.8s;
+}
+
+/* CHAMPANHE */
+
+.convites-champanhe {
+    background-image: url(/img/convites/champanhe/champanhe1.webp);
+}
+
+.convites-champanhe:hover {
+    background-image: url(/img/convites/champanhe/champanhe2.webp);
+    transition: ease 0.8s;
+}
+
+/* GUIPIR */
+
+.convites-guipir {
+    background-image: url(/img/convites/guipir/guipir1.webp);
+}
+
+.convites-guipir:hover {
+    background-image: url(/img/convites/guipir/guipir2.webp);
+    transition: ease 0.8s;
+}
+
+/* LA BELLE */
+
+.convites-labelle {
+    background-image: url(/img/convites/labelle/labelle1.webp);
+}
+
+.convites-labelle:hover {
+    background-image: url(/img/convites/labelle/labelle2.webp);
+    transition: ease 0.8s;
+}
+
+/* CRISTAL */
+
+.convites-cristal {
+    background-image: url(/img/convites/cristal/cristal1.webp);
+}
+
+.convites-cristal:hover {
+    background-image: url(/img/convites/cristal/cristal2.webp);
+    transition: ease 0.8s;
+}
+
+/* LINEAR */
+
+.convites-linear {
+    background-image: url(/img/convites/linear/linear1.webp);
+}
+
+.convites-linear:hover {
+    background-image: url(/img/convites/linear/linear2.webp);
+    transition: ease 0.8s;
+}
+
+/* DROP */
+
+.convites-drop {
+    background-image: url(/img/convites/drop/drop1.webp);
+}
+
+.convites-drop:hover {
+    background-image: url(/img/convites/drop/drop2.webp);
+    transition: ease 0.8s;
+}
+
+/* BLUE */
+
+.convites-blue {
+    background-image: url(/img/convites/blue/blue1.webp);
+}
+
+.convites-blue:hover {
+    background-image: url(/img/convites/blue/blue2.webp);
+    transition: ease 0.8s;
+}
+
+/* WHITE */
+
+.convites-white {
+    background-image: url(/img/convites/white/white1.webp);
+}
+
+.convites-white:hover {
+    background-image: url(/img/convites/white/white2.webp);
+    transition: ease 0.8s;
+}
+
+/* NAME */
+
+.convites-name {
+    background-image: url(/img/convites/name/name1.webp);
+}
+
+.convites-name:hover {
+    background-image: url(/img/convites/name/name2.webp);
+    transition: ease 0.8s;
+}
+
+/* ROYAL */
+
+.convites-royal {
+    background-image: url(/img/convites/royal/royal1.webp);
+}
+
+.convites-royal:hover {
+    background-image: url(/img/convites/royal/royal2.webp);
+    transition: ease 0.8s;
+}
+
+/* SILAND */
+
+.convites-siland {
+    background-image: url(/img/convites/siland/siland1.webp);
+}
+
+.convites-siland:hover {
+    background-image: url(/img/convites/siland/siland2.webp);
+    transition: ease 0.8s;
+}
+
+/* TAG */
+
+.convites-tag {
+    background-image: url(/img/convites/tag/tag1.webp);
+}
+
+.convites-tag:hover {
+    background-image: url(/img/convites/tag/tag2.webp);
+    transition: ease 0.8s;
+}
+
+/* PORTUGUESA */
+
+.convites-portuguesa {
+    background-image: url(/img/convites/portuguesa/portuguesa1.webp);
+}
+
+.convites-portuguesa:hover {
+    background-image: url(/img/convites/portuguesa/portuguesa2.webp);
+    transition: ease 0.8s;
+}
+
+/* RED */
+
+.convites-red {
+    background-image: url(/img/convites/red/red1.webp);
+}
+
+.convites-red:hover {
+    background-image: url(/img/convites/red/red2.webp);
+    transition: ease 0.8s;
+}
+
+/* METALIC */
+
+.convites-metalic {
+    background-image: url(/img/convites/metalic/metalic1.webp);
+}
+
+.convites-metalic:hover {
+    background-image: url(/img/convites/metalic/metalic2.webp);
+    transition: ease 0.8s;
+}
+
+/* LOOP */
+
+.convites-loop {
+    background-image: url(/img/convites/loop/loop1.webp);
+}
+
+.convites-loop:hover {
+    background-image: url(/img/convites/loop/loop2.webp);
+    transition: ease 0.8s;
+}
+
+/* PÉROLA */
+
+.convites-perola {
+    background-image: url(/img/convites/perola/perola1.webp);
+}
+
+.convites-perola:hover {
+    background-image: url(/img/convites/perola/perola2.webp);
+    transition: ease 0.8s;
+}
+
+/* LUZZI */
+
+.convites-luzzi {
+    background-image: url(/img/convites/luzzi/luzzi1.webp);
+}
+
+.convites-luzzi:hover {
+    background-image: url(/img/convites/luzzi/luzzi2.webp);
+    transition: ease 0.8s;
+}
+
+/* LÍRIO */
+
+.convites-lirio {
+    background-image: url(/img/convites/lirio/lirio1.webp);
+}
+
+.convites-lirio:hover {
+    background-image: url(/img/convites/lirio/lirio2.webp);
+    transition: ease 0.8s;
+}
+
+/* LACE */
+
+.convites-lace {
+    background-image: url(/img/convites/lace/lace1.webp);
+}
+
+.convites-lace:hover {
+    background-image: url(/img/convites/lace/lace2.webp);
+    transition: ease 0.8s;
+}
+
+/* RELEVO */
+
+.convites-relevo {
+    background-image: url(/img/convites/relevo/relevo1.webp);
+}
+
+.convites-relevo:hover {
+    background-image: url(/img/convites/relevo/relevo2.webp);
+    transition: ease 0.8s;
+}
+
+/* IT */
+
+.convites-it {
+    background-image: url(/img/convites/it/it1.webp);
+}
+
+.convites-it:hover {
+    background-image: url(/img/convites/it/it2.webp);
+    transition: ease 0.8s;
+}
+
+/* LIC */
+
+.convites-lic {
+    background-image: url(/img/convites/lic/lic1.webp);
+}
+
+.convites-lic:hover {
+    background-image: url(/img/convites/lic/lic2.webp);
+    transition: ease 0.8s;
+}
+
+/* INFINITE */
+
+.convites-infinite {
+    background-image: url(/img/convites/infinite/infinite1.webp);
+}
+
+.convites-infinite:hover {
+    background-image: url(/img/convites/infinite/infinite2.webp);
+    transition: ease 0.8s;
+}
+
+/* GREEN */
+
+.convites-green {
+    background-image: url(/img/convites/green/green1.webp);
+}
+
+.convites-green:hover {
+    background-image: url(/img/convites/green/green2.webp);
+    transition: ease 0.8s;
+}
+
+/* HOUSE */
+
+.convites-house {
+    background-image: url(/img/convites/house/house1.webp);
+}
+
+.convites-house:hover {
+    background-image: url(/img/convites/house/house2.webp);
+    transition: ease 0.8s;
+}
+
+/* BELIQUE */
+
+.convites-belique {
+    background-image: url(/img/convites/belique/belique1.webp);
+}
+
+.convites-belique:hover {
+    background-image: url(/img/convites/belique/belique2.webp);
+    transition: ease 0.8s;
+}
+
+/* MARIA */
+
+.convites-maria {
+    background-image: url(/img/convites/maria/maria1.webp);
+}
+
+.convites-maria:hover {
+    background-image: url(/img/convites/maria/maria2.webp);
+    transition: ease 0.8s;
+}
+
+/* SWEET */
+
+.convites-sweet {
+    background-image: url(/img/convites/sweet/sweet1.webp);
+}
+
+.convites-sweet:hover {
+    background-image: url(/img/convites/sweet/sweet2.webp);
+    transition: ease 0.8s;
+}
+
+/* BLACK */
+
+.convites-black {
+    background-image: url(/img/convites/black/black1.webp);
+}
+
+.convites-black:hover {
+    background-image: url(/img/convites/black/black2.webp);
+    transition: ease 0.8s;
+}
+
+/* OURO */
+
+.convites-ouro {
+    background-image: url(/img/convites/ouro/ouro1.webp);
+}
+
+.convites-ouro:hover {
+    background-image: url(/img/convites/ouro/ouro2.webp);
+    transition: ease 0.8s;
+}
+
+/* STAMPING */
+
+.convites-stamping {
+    background-image: url(/img/convites/stamping/stamping1.webp);
+}
+
+.convites-stamping:hover {
+    background-image: url(/img/convites/stamping/stamping2.webp);
+    transition: ease 0.8s;
+}

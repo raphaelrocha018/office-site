@@ -2,9 +2,14 @@
 
 :root {
     --p1: #fff9f1;
-    --p2: #b3987d;
-    --p3: #b38264;
-    --p4: #99633d;
+    --p2: #decfc0;
+    --p3: #b3987d;
+    --p4: #b38264;
+    --p5: #99633d;
+    --p6: #84533a;
+    --p7: #b5602a;
+
+    --s1: #23324e;
 
     --c00: #ffffff;
     --c05: #f5f5f5;
@@ -25,7 +30,7 @@
 
 :root {
     --font-1: "Ogg", serif;
-    --font-2: "RecoletaAlt", serif;
+    --font-2: "Recoleta", serif;
     --font-3: "Lato", sans-serif;
 }
 
@@ -36,7 +41,7 @@
     font-size: 1.125rem;
 
     color: var(--p1);
-    background-color: var(--p3);
+    background-color: var(--p4);
     border: 1px solid transparent;
 
     padding: 0.5rem 2rem;
@@ -45,9 +50,9 @@
 }
 
 .btn1:hover {
-    color: var(--p3);
+    color: var(--p4);
     background-color: var(--p1);
-    border: 1px solid var(--p3);
+    border: 1px solid var(--p4);
     transition: 0.3s;
 }
 
@@ -55,8 +60,8 @@
     font-family: var(--font-3);
     font-size: 1rem;
 
-    color: var(--p3);
-    border: 1px solid var(--p3);
+    color: var(--p4);
+    border: 1px solid var(--p4);
 
     padding: 0.5rem 2rem;
     border-radius: 2rem;
@@ -71,7 +76,7 @@
     font-family: var(--font-3);
     font-size: 1.125rem;
 
-    color: var(--p3);
+    color: var(--p4);
     background-color: var(--p1);
     border: 1px solid transparent;
 
@@ -83,7 +88,7 @@
 }
 
 .btn3:hover {
-    border: 1px solid var(--p3);
+    border: 1px solid var(--p4);
     transition: 0.3s;
 }
 
