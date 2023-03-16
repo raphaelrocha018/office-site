@@ -38,15 +38,15 @@ img {
     display: block;
 }
 
-/* CONTAINER */
-
 body {
     background: #e2d5cc url(../img/home/background.png) repeat-y;
     background-size: 100%;
 }
 
+/* CONTAINER */
+
 .container {
-    max-width: 80em;
+    max-width: 80rem;
     padding: 0 2rem;
     margin: 0 auto;
 }

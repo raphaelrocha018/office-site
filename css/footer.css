@@ -6,7 +6,7 @@
 
 .footer-conteudo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
     gap: 2rem 0;
 }
 
@@ -47,4 +47,19 @@
 
 .footer-conteudo p span {
     margin-left: 1rem;
+}
+
+@media (max-width: 720px) {
+    .footer-conteudo {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-conteudo > div {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-conteudo address {
+        justify-self: start;
+    }
 }

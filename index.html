@@ -8,6 +8,7 @@
     <title>Office - Papeis e Convites</title>
 
     <link rel="stylesheet" href="./style.css">
+    <script>document.documentElement.className += ' js'</script>
 </head>
 
 <body>
@@ -26,17 +27,18 @@
         </nav>
     </header>
     <main>
-        <section class="intro container">
+        <section class="intro container js-scroll">
+            <picture>
+                <img class="bg-mobile" src="img/home/bg-mobile.png" alt="">
+                <img src="img/home/foto-01.png" alt="Duas mãos de noivos com o anel da noiva em evidência">
+            </picture>
             <div class="intro-texto">
                 <h1>as memórias mais especiais começam nas primeiras impressões</h1>
                 <p>A <em>Office</em> desenha convites para momentos especiais. Junto com você, escolhemos cada detalhe que vai fazer essa experiência inesquecível.</p>
                 <a href="/convites.html" class="btn1">Conheça nossos convites</a>
             </div>
-            <picture>
-                <img src="img/home/foto-01.png" alt="Duas mãos de noivos com o anel da noiva em evidência">
-            </picture>
         </section>
-        <section class="exp container">
+        <section class="exp container js-scroll">
             <hgroup class="exp-texto">
                 <h2>a experiência office</h2>
                 <p>Para um bom projeto acontecer, acreditamos na conexão que criamos com cada um dos nossos clientes. Aqui na <em>Office</em> valorizamos aquela boa conversa para ouvir sua história e entender cada detalhe que faz desse casamento especial.</p>
@@ -46,7 +48,7 @@
                 <img src="img/home/foto-02.png" alt="Noiva segurando um buquê de rosas brancas em meio à vegetação">
             </picture>
         </section>
-        <section class="feedback container">
+        <!-- <section class="feedback container js-scroll">
             <hgroup class="feedback-titulo">
                 <h2>feedback</h2>
                 <p>Cada um dos nossos projetos foi especial! Veja o que nossos clientes tem a dizer.</p>
@@ -77,8 +79,8 @@
                     <a href="./">Convite Rosy</a>
                 </div>
             </div>
-        </section>
-        <section class="modelos container">
+        </section> -->
+        <section class="modelos container js-scroll">
             <h2>Desenhamos seu sonho em papel para emocionar quem você ama</h2>
             <p>O convite é o primeiro contato dos convidados com a celebração que está sendo carinhosamente planejada pelos anfitriões. Por isso, a Office cuida de cada detalhe para que essa primeira impressão seja muito especial e traduza, com sentimento, as informações importantes do evento.</p>
             <a href="/convites.html" class="btn1">Conheça nossos convites</a>
@@ -116,7 +118,7 @@
                 </div>
                 <div class="footer-ajuda">
                     <h3>Ajuda</h3>
-                    <a href="./perguntas.html">Perguntas frequêntes</a>
+                    <a href="./perguntas.html">Perguntas frequentes</a>
                 </div>
             </div>
             <address class="footer-contatos">
@@ -128,6 +130,7 @@
         </div>
     </footer>
 
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

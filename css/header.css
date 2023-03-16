@@ -7,7 +7,7 @@
     grid-template-columns: 3.5fr 8.5fr;
 }
 
-nav {
+.header nav {
     display: flex;
     justify-content: space-between;
     margin-left: 4rem;
@@ -49,38 +49,34 @@ nav > .btn2 {
     align-self: center;
 }
 
-/* @media (max-width: 1440px) {
-    .header {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    nav {
-        margin-left: 1.25rem;
-    }
-
-    nav > menu {
-        margin-right: 1.25rem;
-        gap: 2rem;
-    }
-
-    menu a {
-        font-size: 1rem;
-    }
-}
-
 @media (max-width: 1080px) {
     .header {
         grid-template-columns: 1fr;
-        gap: 1.25rem;
+        gap: 0.5rem;
     }
 
-    nav {
+    .header nav {
+        justify-content: start;
+        gap: 3rem;
         margin-left: 2.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
-    nav > menu {
+    .header nav > menu {
         gap: 2rem;
     }
-} */
+}
+
+@media (max-width: 720px) {
+    .header {
+        margin-bottom: 0;
+    }
+
+    .header picture {
+        width: 65%;
+    }
+
+    .header nav {
+        display: none;
+    }
+}
