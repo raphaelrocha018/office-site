@@ -38,7 +38,7 @@
 
 .btn1 {
     font-family: var(--font-3);
-    font-size: 1.125rem;
+    font-size: 1rem;
 
     color: var(--p1);
     background-color: var(--p4);
@@ -47,13 +47,13 @@
     padding: 0.5rem 2rem;
     border-radius: 2rem;
     align-self: start;
+    transition: 0.3s ease;
 }
 
 .btn1:hover {
     color: var(--p4);
     background-color: var(--p1);
     border: 1px solid var(--p4);
-    transition: 0.3s;
 }
 
 .btn2 {
@@ -65,16 +65,16 @@
 
     padding: 0.5rem 2rem;
     border-radius: 2rem;
+    transition: 0.3s ease;
 }
 
 .btn2:hover {
     background-color: var(--p1);
-    transition: 0.3s;
 }
 
 .btn3 {
     font-family: var(--font-3);
-    font-size: 1.125rem;
+    font-size: 1rem;
 
     color: var(--p4);
     background-color: var(--p1);
@@ -85,11 +85,11 @@
 
     display: flex;
     align-items: center;
+    transition: 0.3s ease;
 }
 
 .btn3:hover {
     border: 1px solid var(--p4);
-    transition: 0.3s;
 }
 
 .btn3::after {
@@ -99,23 +99,9 @@
     height: 12px;
     background: url(../img/icones/btn-seta.svg);
     margin-left: 12px;
+    transition: 0.3s ease;
 }
 
 .btn3:hover::after {
     transform: translateX(12px);
-    transition: 0.3s;
-}
-
-@media (max-width: 1080px) {
-    .btn1 {
-        font-size: 1rem;
-    }
-
-    .btn2 {
-        font-size: 0.9rem;
-    }
-
-    .btn3 {
-        font-size: 0.9rem;
-    }
 }

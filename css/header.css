@@ -1,28 +1,21 @@
 /* CABEÇALHO */
 
 .header {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    display: grid;
-    grid-template-columns: 3.5fr 8.5fr;
-}
-
-.header nav {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
-    margin-left: 4rem;
+    align-items: end;
 }
 
 .menu-paginas {
     display: flex;
-    flex-direction: row;
     gap: 3rem;
     align-items: center;
 }
 
 .menu-social {
     display: flex;
-    flex-direction: row;
     gap: 1.25rem;
     align-items: center;
 }
@@ -35,18 +28,14 @@
 
 menu a {
     font-family: var(--font-3);
-    font-size: 1.1rem;
+    font-weight: 500;
+    font-size: 1rem;
     color: var(--c50);
+    transition: 0.3s ease;
 }
 
 menu a:hover {
     color: var(--p5);
-    transition: 0.3s;
-}
-
-nav > .btn2 {
-    height: max-content;
-    align-self: center;
 }
 
 @media (max-width: 1080px) {
@@ -69,7 +58,8 @@ nav > .btn2 {
 
 @media (max-width: 720px) {
     .header {
-        margin-bottom: 0;
+        display: none;
+        /* margin-bottom: 0; */
     }
 
     .header picture {
