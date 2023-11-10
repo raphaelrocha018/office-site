@@ -101,7 +101,7 @@
     .intro {
         grid-template-columns: 1fr;
         margin-left: 0;
-        min-height: calc(100svh - 0px);
+        min-height: calc(100svh - 120px);
         position: relative;
     }
 

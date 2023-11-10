@@ -6,20 +6,28 @@
 		<title>Office - Papeis e Convites</title>
 
 		<link rel="stylesheet" href="./style.css" />
-		<!-- <script>document.documentElement.className += ' js'</script> -->
+		<script>
+			document.documentElement.className += ' js'
+		</script>
 	</head>
 
 	<body>
 		<header class="header container">
 			<picture>
+				<!-- <source srcset="img/home/logo-header-48.svg" media="(max-width: 720px)" /> -->
 				<img src="img/home/logo-header-56.svg" alt="Logotipo Office" />
 			</picture>
-			<menu class="menu-paginas">
-				<li><a href="./index.html">início</a></li>
-				<li><a href="./sobre.html">nossa história</a></li>
-				<li><a href="./convites.html">convites</a></li>
-				<li><a href="./contatos.html">contatos</a></li>
-			</menu>
+			<nav>
+				<button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu">
+					<img src="/img/icones/menu-burger.svg" alt="Ícone de menu" />
+				</button>
+				<menu class="menu-lista" data-menu="list" id="menu">
+					<li><a href="./index.html">início</a></li>
+					<li><a href="./sobre.html">nossa história</a></li>
+					<li><a href="./convites.html">convites</a></li>
+					<li><a href="./contatos.html">contatos</a></li>
+				</menu>
+			</nav>
 			<a class="btn2" aria-label="Chat on WhatsApp" href="https://wa.me/5527992916357">faça seu orçamento</a>
 		</header>
 		<main>

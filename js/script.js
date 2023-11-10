@@ -1,3 +1,8 @@
+import initMenuMobile from "./modules/menu-mobile.js"
+
+initMenuMobile()
+
+
 // ANIMAÇÃO SCROLL
 
 // function animacaoScroll() {
