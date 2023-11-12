@@ -13,6 +13,18 @@
     align-items: center;
 }
 
+.menu-lista a {
+    font-family: var(--font-3);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--c50);
+    transition: 0.3s ease;
+}
+
+.menu-lista a:hover {
+    color: var(--p5);
+}
+
 .menu-social {
     display: flex;
     gap: 1.25rem;
@@ -23,18 +35,6 @@
     background-color: var(--p1);
     padding: 0.75rem;
     border-radius: 50%;
-}
-
-menu a {
-    font-family: var(--font-3);
-    font-weight: 500;
-    font-size: 1rem;
-    color: var(--c50);
-    transition: 0.3s ease;
-}
-
-menu a:hover {
-    color: var(--p5);
 }
 
 @media (max-width: 1080px) {
@@ -50,10 +50,13 @@ menu a:hover {
     .header nav {
         align-self: end;
         position: relative;
+        display: flex;
+        justify-content: end;
     }
 
-    .header nav > menu {
-        gap: 2rem;
+    .menu-lista {
+        gap: .25rem;
+        top: 50px;
     }
 }
 
