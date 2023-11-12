@@ -1,7 +1,7 @@
 /* CABEÇALHO */
 
 .header {
-    margin-block: 2rem;
+    padding-block: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -58,10 +58,15 @@
         gap: .25rem;
         top: 50px;
     }
+
+    .menu-social {
+        display: none;
+    }
 }
 
 @media (max-width: 720px) {
     .header {
-        margin-block: 1.5rem;
+        padding-block: 1.25rem;
+        background: linear-gradient(to bottom, #E1D6CC, #E1D6CC00);
     }
 }

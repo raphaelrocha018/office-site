@@ -101,8 +101,9 @@
     .intro {
         grid-template-columns: 1fr;
         margin-left: 0;
-        min-height: calc(100svh - 120px);
+        min-height: calc(100svh - 88px);
         position: relative;
+        padding-bottom: .75rem;
     }
 
     .slide {
@@ -116,7 +117,7 @@
         position: absolute;
         z-index: 2;
         left: 0;
-        bottom: 2rem;
+        bottom: 1rem;
         padding-inline: 1rem;
     }
 
@@ -426,6 +427,7 @@
 
     .modelos h2 {
         font-size: 2rem;
+        font-weight: 500;
         max-width: 100%;
     }
 }

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 3fr 4fr 3fr 2fr;
     gap: 1.25rem;
-    margin-top: 6rem;
+    margin-block: 6rem;
 }
 
 .sobre-titulo h1 {
@@ -28,7 +28,6 @@
 .sobre-texto {
     display: grid;
     grid-template-columns: 7fr 5fr;
-    margin-top: 6rem;
 }
 
 .sobre-empresa {
@@ -138,4 +137,145 @@
 
 .sobre-fotos img {
     margin: 0 auto 3rem auto;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 1440px) {
+    .sobre-titulo {
+        margin-block: 3rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .sobre-titulo {
+        grid-template-columns: auto 1fr;
+        margin-block: 4rem;
+    }
+
+    .sobre-titulo h1 {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .sobre-texto {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-empresa {
+        grid-column: 1 / 3;
+        grid-template-columns: auto 1fr;
+        gap: 1.25rem;
+    }
+
+    .sobre-empresa h2 {
+        font-size: 2.5rem;
+    }
+
+    .sobre-empresa p {
+        max-width: 100%;
+        margin-left: .875rem;
+    }
+
+    .sobre-texto div {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1.25rem;
+        margin-top: 4rem;
+    }
+
+    .sobre-texto picture {
+        grid-column: 1;
+        grid-row: 1/3;
+    }
+
+    .sobre-gabi {
+        grid-column: 2;
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+
+    .sobre-gabi h2 {
+        font-size: 2.5rem;
+    }
+
+    .sobre-gabi p {
+        margin-top: .75rem;
+    }
+
+    .sobre-timeline {
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .sobre-titulo {
+        grid-template-columns: 1fr;
+        margin-block: 3rem;
+    }
+
+    .sobre-titulo h1 {
+        grid-column: 1;
+        max-width: 100%;
+        place-self: start;
+    }
+
+    .sobre-titulo p {
+        grid-column: 1;
+    }
+
+    .sobre-empresa {
+        grid-column: 1;
+        grid-template-columns: 1fr;
+        gap: .75rem;
+    }
+
+    .sobre-empresa h2 {
+        place-self: start;
+    }
+
+    .sobre-empresa p {
+        margin-left: 0;
+    }
+
+    .sobre-texto div {
+        grid-template-columns: 1fr;
+        gap: .75rem;
+        margin-top: 2rem;
+    }
+
+    .sobre-texto picture {
+        grid-row: 1;
+        place-self: center;
+    }
+
+    .sobre-gabi {
+        grid-column: 1;
+        grid-row: 2;
+
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+
+    .sobre-gabi h2 {
+        max-width: 100%;
+        margin-top: .75rem;
+    }
+
+    .sobre-gabi p {
+        margin-top: .75rem;
+    }
+
+    .sobre-timeline {
+        margin-top: 6rem;
+        transform: scale(90%);
+    }
+
+    .sobre-timeline img {
+        max-width: 100%;
+    }
+
+    .sobre-fotos img {
+        margin: -4rem auto 3rem auto;
+    }
 }

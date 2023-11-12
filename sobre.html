@@ -3,37 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossa História - Office</title>
 
     <link rel="stylesheet" href="./style.css">
+
+    <script>
+        document.documentElement.className += ' js'
+    </script>
 </head>
 
 <body>
     <header class="header container">
         <picture>
-            <img src="img/home/logo-header.svg" alt="Logotipo Office">
+            <source srcset="img/home/logo-header-48.svg" media="(max-width: 720px)" />
+            <img src="img/home/logo-header-56.svg" alt="Logotipo Office" />
         </picture>
         <nav>
-            <menu class="menu-paginas">
+            <button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu">
+                <img src="/img/icones/menu-burger.svg" alt="" />
+            </button>
+            <menu class="menu-lista" data-menu="list" id="menu">
                 <li><a href="./index.html">início</a></li>
                 <li><a href="./sobre.html">nossa história</a></li>
                 <li><a href="./convites.html">convites</a></li>
                 <li><a href="./contatos.html">contatos</a></li>
             </menu>
-            <menu class="menu-social">
-                <li><a href="https://www.instagram.com">
-                        <img src="/img/icones/instagram.svg" alt="ícone do instagram">
-                    </a></li>
-                <li><a href="https://www.facebook.com">
-                        <img src="/img/icones/facebook.svg" alt="ícone do facebook">
-                    </a></li>
-                <li><a href="https://wa.me/5527992916357">
-                        <img src="/img/icones/whatsapp.svg" alt="ícone do whatsapp">
-                    </a></li>
-            </menu>
         </nav>
+        <menu class="menu-social">
+            <li><a href="https://www.instagram.com">
+                    <img src="/img/icones/instagram.svg" alt="ícone do instagram">
+                </a></li>
+            <li><a href="https://www.facebook.com">
+                    <img src="/img/icones/facebook.svg" alt="ícone do facebook">
+                </a></li>
+            <li><a href="https://wa.me/5527992916357">
+                    <img src="/img/icones/whatsapp.svg" alt="ícone do whatsapp">
+                </a></li>
+        </menu>
     </header>
     <main class="container">
         <hgroup class="sobre-titulo">
@@ -50,16 +57,18 @@
                     Atenção aos detalhes, à personalidade dos clientes e à estética são itens que direcionam nossas criações, como convites, save the date, menus, marcadores de mesa, caixa especial para padrinhos, tags para lembrancinhas, tags para mesa de doces, cartões de agradecimento, dentre inúmeras outras.
                 </p>
             </section>
-            <picture>
-                <img src="/img/sobre/sobre-01.png" alt="Gabi, a fundadora da office, junto com sua família">
-            </picture>
-            <section class="sobre-gabi">
-                <h2>conheça a Gabi</h2>
-                <p>Sou formada em Direito e sempre fui apaixonada por design e papelaria. Foi assim que me encantei pelo mundo dos convites para casamentos e decidi abandonar minha profissão de formação.
-                    <br>
-                    Com a Office Convites, consigo fazer parte de momentos únicos na vida de cada cliente. Estou sempre buscando referências, inovações e novidades na área, para apresentar ao público as melhores ideias, desde o papel escolhido até o acabamento final. Acredito nos detalhes que fazem a diferença e que emocionam.
-                </p>
-            </section>
+            <div>
+                <picture>
+                    <img src="/img/sobre/sobre-01.png" alt="Gabi, a fundadora da office, junto com sua família">
+                </picture>
+                <section class="sobre-gabi">
+                    <h2>conheça a Gabi</h2>
+                    <p>Sou formada em Direito e sempre fui apaixonada por design e papelaria. Foi assim que me encantei pelo mundo dos convites para casamentos e decidi abandonar minha profissão de formação.
+                        <br>
+                        Com a Office Convites, consigo fazer parte de momentos únicos na vida de cada cliente. Estou sempre buscando referências, inovações e novidades na área, para apresentar ao público as melhores ideias, desde o papel escolhido até o acabamento final. Acredito nos detalhes que fazem a diferença e que emocionam.
+                    </p>
+                </section>
+            </div>
         </div>
         <section class="sobre-timeline">
             <picture><img src="/img/sobre/timeline.png" alt="linha do tempo da história da office"></picture>
@@ -108,4 +117,6 @@
             <p>2023, OFFICE - PAPEL & CONVITES. <span>TODOS OS DIREITOS RESERVADOS.</span></p>
         </div>
     </footer>
+
+    <script type="module" src="/js/script.js"></script>
 </body>

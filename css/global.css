@@ -38,16 +38,18 @@ img {
     display: block;
 }
 
-/* html {
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-} */
-
 body {
     background: #e2d5cc url(../img/home/background.png) repeat-y;
     background-size: 100%;
+}
+
+@media (max-width: 720px) {
+    html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
 }
 
 /* CONTAINER */
