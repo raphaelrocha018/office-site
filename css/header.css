@@ -1,8 +1,7 @@
 /* CABEÇALHO */
 
 .header {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-block: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -50,6 +49,7 @@ menu a:hover {
 
     .header nav {
         align-self: end;
+        position: relative;
     }
 
     .header nav > menu {
@@ -57,4 +57,8 @@ menu a:hover {
     }
 }
 
-@media (max-width: 720px) {}
+@media (max-width: 720px) {
+    .header {
+        margin-block: 1.5rem;
+    }
+}

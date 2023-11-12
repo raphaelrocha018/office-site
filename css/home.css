@@ -16,11 +16,11 @@
     border-radius: 1rem;
     max-width: 100%;
     height: 100%;
-    animation: bg-slide 20s both infinite;
-    -webkit-animation: bg-slide 20s both infinite;
+    /* animation: bg-slide 20s both infinite;
+    -webkit-animation: bg-slide 20s both infinite; */
 }
 
-@keyframes bg-slide {
+/* @keyframes bg-slide {
     0% {
         background-image: url('/img/home/slide/foto-01.jpg');
     }
@@ -40,7 +40,7 @@
     100% {
         background-image: url('/img/home/slide/foto-01.jpg');
     }
-}
+} */
 
 .intro-texto {
     grid-column: 2;
