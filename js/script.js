@@ -1,6 +1,8 @@
 import initMenuMobile from "./modules/menu-mobile.js"
+import initSlide from "./modules/slide.js"
 
 initMenuMobile()
+initSlide()
 
 
 // ANIMAÇÃO SCROLL
