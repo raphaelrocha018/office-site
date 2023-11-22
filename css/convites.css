@@ -33,6 +33,17 @@
     margin-bottom: 6rem;
 }
 
+.card-group div {
+    height: 16rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
 .convites-lista div {
     height: 19rem;
     width: 100%;

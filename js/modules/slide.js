@@ -1,10 +1,11 @@
 export default function initSlide() {
     const gallery = document.querySelector('.slide-wrapper')
-    const wrapper = document.querySelector('.slide-gallery')
-    const images = document.querySelectorAll('.slide-gallery img')
-    const btnArrow = document.querySelectorAll('.slide-controls button')
 
-    if (gallery, wrapper, images, btnArrow) {
+    if (gallery) {
+        const wrapper = document.querySelector('.slide-gallery')
+        const images = document.querySelectorAll('.slide-gallery img')
+        const btnArrow = document.querySelectorAll('.slide-controls button')
+
         let imageIndex = 0
         let intervalID
 

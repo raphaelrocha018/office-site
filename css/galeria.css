@@ -43,11 +43,11 @@ body {
 }
 
 .slide-info li::before {
-    content: '';
+    content: '•';
     display: inline-block;
     width: 12px;
     height: 12px;
-    background-image: url('/img/icones/asterisco.svg');
+    /* background-image: url('/img/icones/asterisco.svg'); */
     margin-right: .5rem;
 }
 
@@ -198,5 +198,9 @@ body {
 
     .slide-info hgroup {
         justify-self: start;
+    }
+
+    .slide-controls {
+        justify-content: end;
     }
 }
