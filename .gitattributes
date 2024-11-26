@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Logs e arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs de erros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos gerados por editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Dependências ou builds (se você usar algo como Parcel, Vite ou Webpack)
+node_modules/
+dist/
+
+# Outros
+*.log

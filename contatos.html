@@ -1,120 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Fale com a gente - Office</title>
-		<meta name="theme-color" content="#E1D7CC" />
 
-		<link rel="stylesheet" href="./style.css" />
-		<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Fale com a gente - Office</title>
+	<meta name="theme-color" content="#E1D7CC" />
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
 
-		<script>
-			document.documentElement.className += ' js'
-		</script>
-	</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 
-	<body>
-		<header class="header container">
-			<a href="/index.html">
-				<picture>
-					<source srcset="img/home/logo-header-48.svg" media="(max-width: 720px)" />
-					<img src="img/home/logo-header-56.svg" alt="Logotipo Office" />
-				</picture>
-			</a>
-			<nav>
-				<button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu">
-					<img src="/img/icones/menu-burger.svg" alt="" />
-				</button>
-				<menu class="menu-lista" data-menu="list" id="menu">
-					<li><a href="./index.html">início</a></li>
-					<li><a href="./sobre.html">nossa história</a></li>
-					<li><a href="./convites.html">convites</a></li>
-					<li><a href="./contatos.html">contatos</a></li>
-				</menu>
-			</nav>
-			<menu class="menu-social">
-				<li>
-					<a href="https://www.instagram.com" target="_blank">
-						<img src="/img/icones/instagram.svg" alt="ícone do instagram" />
-					</a>
-				</li>
-				<li>
-					<a href="https://www.facebook.com" target="_blank">
-						<img src="/img/icones/facebook.svg" alt="ícone do facebook" />
-					</a>
-				</li>
-				<li>
-					<a href="https://wa.me/5527992916357" target="_blank">
-						<img src="/img/icones/whatsapp.svg" alt="ícone do whatsapp" />
-					</a>
-				</li>
+	<script>
+		document.documentElement.className += ' js'
+	</script>
+</head>
+
+<body>
+	<header class="header container">
+		<a href="/index.html">
+			<picture>
+				<source srcset="img/home/logo-header-48.svg" media="(max-width: 720px)" />
+				<img src="img/home/logo-header-56.svg" alt="Logotipo Office" />
+			</picture>
+		</a>
+		<nav>
+			<button class="menu-mobile" data-menu="button" aria-expanded="false" aria-controls="menu">
+				<img src="/img/icones/menu-burger.svg" alt="" />
+			</button>
+			<menu class="menu-lista" data-menu="list" id="menu">
+				<li><a href="./index.html">início</a></li>
+				<li><a href="./sobre.html">nossa história</a></li>
+				<li><a href="./convites.html">convites e papelaria</a></li>
+				<li><a href="./contatos.html">contatos</a></li>
 			</menu>
-		</header>
-		<main class="container">
-			<hgroup class="contatos-titulo">
-				<h1>contatos</h1>
-				<p>
-					Tire suas dúvidas, compartilhe suas ideias e solicite um orçamento. Ficaremos felizes em fazer parte desse
-					momento especial. Somos um e-commerce de convites e papelaria. Nossas vendas exclusivamente on-line por email
-					ou whatsapp. Entregamos em todo Brasil e exterior.
-				</p>
-			</hgroup>
-			<form action="" class="contatos-form">
-				<div>
-					<label for="nome">Nome</label>
-					<input type="text" id="nome" name="nome" placeholder="Seu Nome" />
-				</div>
-				<div>
-					<label for="tel">Telefone</label>
-					<input type="text" id="tel" name="tel" placeholder="(11) 99999-9999" />
-				</div>
-				<div>
-					<label for="email">Email</label>
-					<input type="email" id="email" name="email" placeholder="contato@email.com" />
-				</div>
-				<div>
-					<label for="mensagem">Mensagem</label>
-					<textarea
-						rows="5"
-						id="mensagem"
-						name="mensagem"
-						placeholder="Me fale sobre seu evento, o que você imaginou, quais as cores principais da sua festa…"></textarea>
-				</div>
-				<button class="btn-1">Enviar Mensagem</button>
-			</form>
-		</main>
-		<footer class="footer">
-			<div class="footer-conteudo container">
-				<div>
-					<div class="footer-menu">
-						<h3>Menu</h3>
-						<a href="./index.html">Início</a>
-						<a href="./sobre.html">Nossa história</a>
-						<a href="./convites.html">Convites</a>
-						<a href="./contatos.html">Contatos</a>
-					</div>
-					<div class="footer-ajuda">
-						<h3>Ajuda</h3>
-						<a href="./perguntas.html">Perguntas frequêntes</a>
-					</div>
-				</div>
-				<address class="footer-contatos">
-					<h3>Contatos</h3>
-					<p>Brasil: <a href="tel:+5511913930791" target="_blank">+55 (11) 91393-0791</a></p>
-					<p>Angola: <a href="tel:+244938717910" target="_blank">+244 938 717 910</a></p>
-				</address>
-				<p>2023, OFFICE - PAPEL & CONVITES. <span>TODOS OS DIREITOS RESERVADOS.</span></p>
+		</nav>
+		<menu class="menu-social">
+			<li>
+				<a href="https://www.instagram.com" target="_blank">
+					<img src="/img/icones/instagram.svg" alt="ícone do instagram" />
+				</a>
+			</li>
+			<li>
+				<a href="https://wa.me/5527992916357" target="_blank">
+					<img src="/img/icones/whatsapp.svg" alt="ícone do whatsapp" />
+				</a>
+			</li>
+		</menu>
+	</header>
+	<main class="container">
+		<hgroup class="contatos-titulo">
+			<h1>contatos</h1>
+			<p>
+				Tire suas dúvidas, compartilhe suas ideias e solicite um orçamento. Ficaremos felizes em fazer parte desse
+				momento especial. Somos um e-commerce de convites e papelaria. Nossas vendas exclusivamente on-line por email
+				ou whatsapp. Entregamos em todo Brasil e exterior.
+			</p>
+		</hgroup>
+		<form action="" class="contatos-form">
+			<div>
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" placeholder="Seu Nome" />
 			</div>
-		</footer>
+			<div>
+				<label for="tel">Telefone</label>
+				<input type="text" id="tel" name="tel" placeholder="(11) 99999-9999" />
+			</div>
+			<div>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="contato@email.com" />
+			</div>
+			<div>
+				<label for="mensagem">Mensagem</label>
+				<textarea rows="5" id="mensagem" name="mensagem" placeholder="Me fale sobre seu evento, o que você imaginou, quais as cores principais da sua festa…"></textarea>
+			</div>
+			<button class="btn-1">Enviar Mensagem</button>
+		</form>
+	</main>
+	<footer class="footer">
+		<div class="footer-conteudo container">
+			<div>
+				<div class="footer-menu">
+					<h3>Menu</h3>
+					<a href="./index.html">Início</a>
+					<a href="./sobre.html">Nossa história</a>
+					<a href="./convites.html">Convites</a>
+					<a href="./contatos.html">Contatos</a>
+				</div>
+				<div class="footer-ajuda">
+					<h3>Ajuda</h3>
+					<a href="./perguntas.html">Perguntas frequêntes</a>
+				</div>
+			</div>
+			<address class="footer-contatos">
+				<h3>Contatos</h3>
+				<p>Brasil: <a href="tel:+5511995499500" target="_blank">+55 (11) 99549 9500</a></p>
+				<p>Angola: <a href="tel:+244938717910" target="_blank">+244 938 717 910</a></p>
+			</address>
+			<p>2023, OFFICE - PAPEL & CONVITES. <span>TODOS OS DIREITOS RESERVADOS.</span></p>
+		</div>
+	</footer>
 
-		<script type="text/javascript">
-			$('#tel').mask('(00) 00000-0000')
-		</script>
+	<script type="text/javascript">
+		$('#tel').mask('(00) 00000-0000')
+	</script>
 
-		<script type="module" src="/js/script.js"></script>
-	</body>
+	<script type="module" src="/js/script.js"></script>
+</body>
+
 </html>
