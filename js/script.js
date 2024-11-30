@@ -1,9 +1,10 @@
-import initMenuMobile from "./modules/menu-mobile.js"
-import initSlide from "./modules/slide.js"
+import initMenuMobile from './modules/menu-mobile.js';
+import initSlide from './modules/slide.js';
+import initWppMessage from './modules/wpp-message.js';
 
-initMenuMobile()
-initSlide()
-
+initMenuMobile();
+initSlide();
+initWppMessage();
 
 // ANIMAÇÃO SCROLL
 
